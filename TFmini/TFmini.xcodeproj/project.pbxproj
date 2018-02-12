@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2617F9067D8F3E35F0E2E1B0 /* libPods-TFmini.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 773701BCEA9523A9B2F59063 /* libPods-TFmini.a */; };
+		8D5B2E2B20314394005729E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B2E2A20314394005729E2 /* AppDelegate.swift */; };
+		8D5B2E2D20314394005729E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B2E2C20314394005729E2 /* Assets.xcassets */; };
+		8D5B2E3020314394005729E2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B2E2E20314394005729E2 /* MainMenu.xib */; };
+		8D5B2E3A20314665005729E2 /* TFmini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B2E3920314665005729E2 /* TFmini.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		432045AE18028848D8A28664 /* Pods-TFmini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFmini.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFmini/Pods-TFmini.release.xcconfig"; sourceTree = "<group>"; };
+		773701BCEA9523A9B2F59063 /* libPods-TFmini.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TFmini.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B2E2720314394005729E2 /* TFmini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFmini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B2E2A20314394005729E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D5B2E2C20314394005729E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D5B2E2F20314394005729E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8D5B2E3120314394005729E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5B2E3220314394005729E2 /* TFmini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TFmini.entitlements; sourceTree = "<group>"; };
+		8D5B2E38203144DF005729E2 /* TFmini-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFmini-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D5B2E3920314665005729E2 /* TFmini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFmini.swift; sourceTree = "<group>"; };
+		EFD0323D8CC3A406ED089A92 /* Pods-TFmini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFmini.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TFmini/Pods-TFmini.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B2E2420314394005729E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2617F9067D8F3E35F0E2E1B0 /* libPods-TFmini.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73094C22BE9B7C37F1B422D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFD0323D8CC3A406ED089A92 /* Pods-TFmini.debug.xcconfig */,
+				432045AE18028848D8A28664 /* Pods-TFmini.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D5B2E1E20314394005729E2 = {
+			isa = PBXGroup;
+			children = (
+				8D5B2E2920314394005729E2 /* TFmini */,
+				8D5B2E2820314394005729E2 /* Products */,
+				73094C22BE9B7C37F1B422D2 /* Pods */,
+				9D66107F1ED681B643C34F5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D5B2E2820314394005729E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B2E2720314394005729E2 /* TFmini.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D5B2E2920314394005729E2 /* TFmini */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B2E2A20314394005729E2 /* AppDelegate.swift */,
+				8D5B2E2C20314394005729E2 /* Assets.xcassets */,
+				8D5B2E2E20314394005729E2 /* MainMenu.xib */,
+				8D5B2E3120314394005729E2 /* Info.plist */,
+				8D5B2E3220314394005729E2 /* TFmini.entitlements */,
+				8D5B2E38203144DF005729E2 /* TFmini-Bridging-Header.h */,
+				8D5B2E3920314665005729E2 /* TFmini.swift */,
+			);
+			path = TFmini;
+			sourceTree = "<group>";
+		};
+		9D66107F1ED681B643C34F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				773701BCEA9523A9B2F59063 /* libPods-TFmini.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B2E2620314394005729E2 /* TFmini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5B2E3520314394005729E2 /* Build configuration list for PBXNativeTarget "TFmini" */;
+			buildPhases = (
+				C992BA3176E300FABC01D4B0 /* [CP] Check Pods Manifest.lock */,
+				8D5B2E2320314394005729E2 /* Sources */,
+				8D5B2E2420314394005729E2 /* Frameworks */,
+				8D5B2E2520314394005729E2 /* Resources */,
+				3A9BA2D1B3E9D030F0CB8BC3 /* [CP] Embed Pods Frameworks */,
+				9B97C19E7B0E80DB8339D2FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFmini;
+			productName = TFmini;
+			productReference = 8D5B2E2720314394005729E2 /* TFmini.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D5B2E1F20314394005729E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = karoto;
+				TargetAttributes = {
+					8D5B2E2620314394005729E2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8D5B2E2220314394005729E2 /* Build configuration list for PBXProject "TFmini" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D5B2E1E20314394005729E2;
+			productRefGroup = 8D5B2E2820314394005729E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B2E2620314394005729E2 /* TFmini */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B2E2520314394005729E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B2E2D20314394005729E2 /* Assets.xcassets in Resources */,
+				8D5B2E3020314394005729E2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A9BA2D1B3E9D030F0CB8BC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFmini/Pods-TFmini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B97C19E7B0E80DB8339D2FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFmini/Pods-TFmini-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C992BA3176E300FABC01D4B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B2E2320314394005729E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B2E3A20314665005729E2 /* TFmini.swift in Sources */,
+				8D5B2E2B20314394005729E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D5B2E2E20314394005729E2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D5B2E2F20314394005729E2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D5B2E3320314394005729E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D5B2E3420314394005729E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		8D5B2E3620314394005729E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD0323D8CC3A406ED089A92 /* Pods-TFmini.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TFmini/TFmini.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N453TFWY8P;
+				INFOPLIST_FILE = TFmini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karoto.TFmini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8D5B2E3720314394005729E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432045AE18028848D8A28664 /* Pods-TFmini.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TFmini/TFmini.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N453TFWY8P;
+				INFOPLIST_FILE = TFmini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karoto.TFmini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D5B2E2220314394005729E2 /* Build configuration list for PBXProject "TFmini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5B2E3320314394005729E2 /* Debug */,
+				8D5B2E3420314394005729E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5B2E3520314394005729E2 /* Build configuration list for PBXNativeTarget "TFmini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5B2E3620314394005729E2 /* Debug */,
+				8D5B2E3720314394005729E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D5B2E1F20314394005729E2 /* Project object */;
+}
