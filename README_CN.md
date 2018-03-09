@@ -30,7 +30,7 @@ pod install
 
 完成后关闭终端, 打开工程目录下的 .xcworkspace 文件.  点击顶部的黄色小叹号, 更新到推荐的设置.  
 
-手动添加OC到Swift的桥接文件: TFmini-Bridging-Header.h, 其中SerialGUI是工程名, 内容为: 
+手动添加OC到Swift的桥接文件: TFmini-Bridging-Header.h, 其中TFmini是工程名, 内容为: 
 ```
 #import "ORSSerialPort.h"
 #import "ORSSerialPortManager.h"
@@ -45,7 +45,7 @@ $(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h
 
 新建一个TFmini类, 继承于NSObject.  
 
-然后在XIB文件中加入一个 Object, 在Identity Inspector中的Class, 选择刚刚创建的SerialGUI类, 这样, 就可以关联对象到TFmini类中了: 
+然后在XIB文件中加入一个 Object, 在Identity Inspector中的Class, 选择刚刚创建的TFmini类, 这样, 就可以关联对象到TFmini类中了: 
 ![AddObject](/Assets/AddObject.jpg) 
 
 拖Label, Pop Up Button, Push Button, TextView各种控件到Window的View中, 给控件添加一些约束, 并设置Window的最小尺寸为480*360: 
