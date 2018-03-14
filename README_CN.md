@@ -1,5 +1,5 @@
 # TFmini-macOS
-用USB转串口连接TFmini和macOS. 基于Xcode 9, Swift 4, ORSSerialPort开发. English version [README_EN.md](/README_EN.md).  
+用USB转串口连接TFmini和macOS. 基于Xcode 9, Swift 4, ORSSerialPort开发. English version [README.md](/README.md).  
 
 ---
 ## 安装USB转串口驱动  
