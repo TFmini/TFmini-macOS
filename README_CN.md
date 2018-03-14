@@ -1,10 +1,12 @@
 # TFmini-macOS
-用USB转串口连接TFmini和macOS. 基于Xcode 9, Swift 4, ORSSerialPort开发. 
+用USB转串口连接TFmini和macOS. 基于Xcode 9, Swift 4, ORSSerialPort开发. English version [README_EN.md](/README_EN.md).  
 
 ---
 ## 安装USB转串口驱动  
 常用的USB转串口芯片有 [CH341](http://www.wch.cn/download/CH341SER_MAC_ZIP.html), [CP210X](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers), [PL2303](http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=229&pcid=41), [FT232](http://www.ftdichip.com/Drivers/VCP.htm)等, 点击相应的名称下载macOS驱动并安装. 我这里使用的是CP2104. 安装完成后连接TFmini到macOS: 
 ![TFmini-macOS](/Assets/TFmini-macOS.jpg) 
+
+安装USB转串口驱动后, 可以在Release中直接下载 .dmg 安装使用.  如果想知道工程怎么构建的, 可以往下读.  
 
 --- 
 ## 新建Xcode9/Swift4工程  
