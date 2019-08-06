@@ -1,5 +1,5 @@
 # TFmini-macOS
-**Note: also suitable for TFmini**
+**Note: also suitable for TFmini Plus**
 
 Connect TFmini to macOS via USB-serial adaptor. Xcode 9, Swift 4 and ORSSerialPort are used for development. 中文版请点击 [README_CN](/README_CN.md).      
 
